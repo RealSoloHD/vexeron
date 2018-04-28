@@ -1,0 +1,67 @@
+[229.110002518] 2018-04-27 20:30:14,495 - INFO - launcher: Starting sanity checks
+[230.613470078] 2018-04-27 20:30:14,496 - INFO - launcher: Checking for Python 3.5+
+[269.215822220] 2018-04-27 20:30:14,535 - INFO - launcher: Checking console encoding
+[269.717454910] 2018-04-27 20:30:14,535 - INFO - launcher: Setting console encoding to UTF-8
+[269.717454910] 2018-04-27 20:30:14,535 - INFO - launcher: Ensuring we're in the right environment
+[275.732994080] 2018-04-27 20:30:14,541 - INFO - launcher: Adding local bins/ folder to path
+[277.236938477] 2018-04-27 20:30:14,543 - INFO - launcher: Required checks passed.
+[279.242753983] 2018-04-27 20:30:14,545 - INFO - launcher: Optional checks passed.
+[279.743671417] 2018-04-27 20:30:14,545 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[14.8844666481018066] 2018-04-27 20:30:29,150 - WARNING - musicbot.config | In config.py::MainThread(10068), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[14.8859710693359375] 2018-04-27 20:30:29,152 - INFO - musicbot.config | In config.py::MainThread(10068), line 123 in run_checks: Using i18n: config/i18n/en.json
+[14.8914852142333984] 2018-04-27 20:30:29,157 - DEBUG - musicbot.json | In json.py::MainThread(10068), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[15.4058523178100586] 2018-04-27 20:30:29,671 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 227 in _setup_logging: Set logging level to INFO
+[15.4058523178100586] 2018-04-27 20:30:29,671 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 84 in __init__: Starting MusicBot 1.9.7
+[15.4068558216094971] 2018-04-27 20:30:29,672 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[18.1367611885070801] 2018-04-27 20:30:32,402 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 1074 in on_ready: Connection established, ready to go.
+[18.1367611885070801] 2018-04-27 20:30:32,402 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 339 in _cache_app_info: Caching app info
+[18.1883981227874756] 2018-04-27 20:30:32,454 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[18.1924097537994385] 2018-04-27 20:30:32,458 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 905 in _scheck_server_permissions: Checking server permissions
+[18.1924097537994385] 2018-04-27 20:30:32,458 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[18.1924097537994385] 2018-04-27 20:30:32,458 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 913 in _scheck_configs: Validating config
+[18.1924097537994385] 2018-04-27 20:30:32,458 - DEBUG - musicbot.config | In config.py::MainThread(10068), line 212 in async_validate: Validating options...
+[18.1929106712341309] 2018-04-27 20:30:32,459 - DEBUG - musicbot.config | In config.py::MainThread(10068), line 226 in async_validate: Acquired owner id via API
+[18.1929106712341309] 2018-04-27 20:30:32,459 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 916 in _scheck_configs: Validating permissions config
+[18.1929106712341309] 2018-04-27 20:30:32,459 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10068), line 64 in async_validate: Validating permissions...
+[18.1929106712341309] 2018-04-27 20:30:32,459 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10068), line 68 in async_validate: Fixing automatic owner group
+[18.1929106712341309] 2018-04-27 20:30:32,459 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1091 in on_ready: Connected: 426798278760464384/Vexeron#0409
+[18.1934120655059814] 2018-04-27 20:30:32,459 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1099 in on_ready: Owner:     310216575578013696/Solo HD#5684
+
+[18.1944155693054199] 2018-04-27 20:30:32,460 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1102 in on_ready: Server List:
+[18.1949167251586914] 2018-04-27 20:30:32,461 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1105 in on_ready:  - 【Spline】
+[18.1959190368652344] 2018-04-27 20:30:32,462 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1105 in on_ready:  - Vexeron
+[18.1964204311370850] 2018-04-27 20:30:32,462 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1105 in on_ready:  - 【HD Squad】
+[18.1969213485717773] 2018-04-27 20:30:32,463 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1105 in on_ready:  - Solo + Wolfy
+[18.1979238986968994] 2018-04-27 20:30:32,464 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1151 in on_ready: Not bound to any text channels
+[18.1999292373657227] 2018-04-27 20:30:32,466 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 1177 in on_ready: Not autojoining any voice channels
+[54.4567282199859619] 2018-04-27 20:31:08,722 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 2734 in on_message: 234849942445883393/Solo HD#0014: =help
+[60.4392583370208740] 2018-04-27 20:31:14,705 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 2734 in on_message: 234849942445883393/Solo HD#0014: =summon
+[60.4512915611267090] 2018-04-27 20:31:14,717 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 2019 in cmd_summon: Joining 【HD Squad】/General
+[60.4542989730834961] 2018-04-27 20:31:14,720 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 452 in get_voice_client: Connection attempt 1 to General
+[60.4542989730834961] 2018-04-27 20:31:14,720 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[60.4547996520996094] 2018-04-27 20:31:14,720 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[60.4553012847900391] 2018-04-27 20:31:14,721 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[60.4959094524383545] 2018-04-27 20:31:14,762 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 2938 in on_voice_state_update: Voice state update for 426798278760464384/Vexeron#0409 on 【HD Squad】/General -> [JOIN, CONNECT]
+[60.4959094524383545] 2018-04-27 20:31:14,762 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 2949 in on_voice_state_update: 426798278760464384/Vexeron#0409 has joined 【HD Squad】/General
+[60.4994189739227295] 2018-04-27 20:31:14,765 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[60.5039310455322266] 2018-04-27 20:31:14,770 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[60.8814339637756348] 2018-04-27 20:31:15,147 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[60.8819353580474854] 2018-04-27 20:31:15,148 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 478 in get_voice_client: Connected in 0.4s
+[60.8819353580474854] 2018-04-27 20:31:15,148 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 479 in get_voice_client: Connected to 【HD Squad】/General
+[60.8894555568695068] 2018-04-27 20:31:15,155 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 849 in deserialize_queue: Deserializing queue for 395246819443212288
+[61.1626825332641602] 2018-04-27 20:31:15,428 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 570 in get_player: Created player via deserialization for server 395246819443212288 with 1 entries
+[61.1641860008239746] 2018-04-27 20:31:15,430 - VOICEDEBUG - musicbot.player | In player.py::MainThread(10068), line 373 in websocket_check: Starting websocket check loop for 【HD Squad】
+[61.1646871566772461] 2018-04-27 20:31:15,430 - DEBUG - musicbot.entry | In entry.py::MainThread(10068), line 54 in get_ready_future: Created future for audio_cache\youtube-otCpCn0l4Wo-MC_Hammer_-_U_Can_t_Touch_This.m4a
+[61.1646871566772461] 2018-04-27 20:31:15,430 - DEBUG - musicbot.player | In player.py::MainThread(10068), line 269 in get_mean_volume: Calculating mean volume of audio_cache\youtube-otCpCn0l4Wo-MC_Hammer_-_U_Can_t_Touch_This.m4a
+[67.7517898082733154] 2018-04-27 20:31:22,017 - DEBUG - musicbot.player | In player.py::MainThread(10068), line 290 in get_mean_volume: Calculated mean volume as -22.7
+[67.7522914409637451] 2018-04-27 20:31:22,018 - FFMPEG - musicbot.player | In player.py::MainThread(10068), line 330 in _play: Creating player with options: -nostdin -af "volume=5.5dB" audio_cache\youtube-otCpCn0l4Wo-MC_Hammer_-_U_Can_t_Touch_This.m4a
+[67.9914271831512451] 2018-04-27 20:31:22,257 - DEBUG - musicbot.bot | In bot.py::MainThread(10068), line 825 in serialize_queue: Serializing queue for 395246819443212288
+[124.8506383895874023] 2018-04-27 20:32:19,116 - INFO - musicbot.bot | In bot.py::MainThread(10068), line 2734 in on_message: 234849942445883393/Solo HD#0014: =disconnect
+[124.9313526153564453] 2018-04-27 20:32:19,197 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 2938 in on_voice_state_update: Voice state update for 426798278760464384/Vexeron#0409 on 【HD Squad】/General -> [DISCONNECT]
+[129.3464698791503906] 2018-04-27 20:32:23,612 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 2938 in on_voice_state_update: Voice state update for 234849942445883393/Solo HD#0014 on 【HD Squad】/General -> [MUTE]
+[155.6570866107940674] 2018-04-27 20:32:49,923 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 2938 in on_voice_state_update: Voice state update for 236554130510970880/_ItsDragon#4038 on 【HD Squad】/Clash Royale Channel -> [CONNECT, MUTE]
+[155.9947109222412109] 2018-04-27 20:32:50,260 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 2938 in on_voice_state_update: Voice state update for 236554130510970880/_ItsDragon#4038 on 【HD Squad】/Clash Royale Channel -> [UNMUTE]
+[158.3365457057952881] 2018-04-27 20:32:52,602 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10068), line 2938 in on_voice_state_update: Voice state update for 236554130510970880/_ItsDragon#4038 on 【HD Squad】/Clash Royale Channel -> [DISCONNECT]

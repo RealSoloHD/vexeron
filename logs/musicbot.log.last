@@ -1,0 +1,15 @@
+[274.731159210] 2018-04-26 18:02:17,468 - INFO - launcher: Starting sanity checks
+[275.232076645] 2018-04-26 18:02:17,469 - INFO - launcher: Checking for Python 3.5+
+[275.733232498] 2018-04-26 18:02:17,469 - INFO - launcher: Checking console encoding
+[275.733232498] 2018-04-26 18:02:17,469 - INFO - launcher: Setting console encoding to UTF-8
+[276.234626770] 2018-04-26 18:02:17,470 - INFO - launcher: Ensuring we're in the right environment
+[279.242753983] 2018-04-26 18:02:17,473 - INFO - launcher: Adding local bins/ folder to path
+[280.746698380] 2018-04-26 18:02:17,474 - INFO - launcher: Required checks passed.
+[281.248331070] 2018-04-26 18:02:17,475 - INFO - launcher: Optional checks passed.
+[281.750202179] 2018-04-26 18:02:17,475 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[82851.1905236244201660] 2018-04-27 16:10:57,179 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(38652), line 2938 in on_voice_state_update: Voice state update for 234849942445883393/Solo HD#0014 on 【HD Squad】/General -> [CONNECT]
+[82852.4122731685638428] 2018-04-27 16:10:58,401 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(38652), line 2938 in on_voice_state_update: Voice state update for 236554130510970880/_ItsDragon#4038 on 【HD Squad】/General -> [CONNECT, MUTE]
+[82853.0740346908569336] 2018-04-27 16:10:59,063 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(38652), line 2938 in on_voice_state_update: Voice state update for 236554130510970880/_ItsDragon#4038 on 【HD Squad】/General -> [UNMUTE]
